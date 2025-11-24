@@ -1,7 +1,7 @@
-<div style="margin-bottom: 1rem; background-color: #000835; display: flex; justify-content: center; align-items: center;">
+<p align="center">
   <!-- TODO: make more responsive -->
-  <img alt="Twinkle logo" src="assets/twinkle_header-logo_dark.png" style="width: 24rem; height: auto; padding: 3.2rem 6.4rem;" />
-</div>
+  <img alt="Twinkle logo" src="assets/twinkle_header-logo_dark-2.png" width="384" />
+</p>
 
 # Twinkle.css
 ### A soft fork of Tailwind… but with good table manners.
@@ -153,8 +153,7 @@ This is the magic that enables zero-config utility styling inside any Glint or v
 If you want to help:
 - Bring jokes
 - Bring unreasonable opinions about CSS specificity
-- Bring your own glitter
-- PRs welcome, especially if they prevent Future Todd from crying
+- PRs welcome
 
 ---
 
