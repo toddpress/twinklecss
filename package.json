@@ -1,0 +1,20 @@
+{
+  "name": "twinklecss",
+  "description": "An aggessively polite CSS framework.",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build:css": "npx tailwindcss -c tailwind.config.cjs -i tw-input.css -o build/twinkle.css",
+    "build:hostify": "postcss build/twinkle.css -u build/hostify.cjs -o dist/twinkle.css",
+    "build": "npm run build:css && npm run build:hostify"
+  },
+  "keywords": [],
+  "author": "toddpress",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
